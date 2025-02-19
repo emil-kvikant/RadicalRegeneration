@@ -179,14 +179,22 @@ nav {
 }
 
 .coming-soon {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     margin-left: 1rem;
     padding: 0.25rem 0.75rem;
     background-color: var(--green);
     color: white;
     border-radius: 4px;
     font-size: 0.9rem;
-    vertical-align: middle;
+}
+
+.coming-soon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    object-fit: cover;
 }
 
 /* Footer */
