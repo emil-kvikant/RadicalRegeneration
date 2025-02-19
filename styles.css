@@ -186,9 +186,7 @@ nav {
 }
 
 .coming-soon {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    display: inline-block;
     margin-left: 1rem;
     padding: 0.25rem 0.75rem;
     background-color: var(--green);
@@ -198,8 +196,8 @@ nav {
 }
 
 .builder-image {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 4px;
     object-fit: cover;
 }
