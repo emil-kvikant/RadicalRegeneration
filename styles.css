@@ -178,10 +178,15 @@ nav {
     border-top: 1px solid #ddd;
 }
 
-.coming-soon {
+.status-wrapper {
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-top: 1rem;
+}
+
+.coming-soon {
+    display: inline-block;
     margin-left: 1rem;
     padding: 0.25rem 0.75rem;
     background-color: var(--green);
@@ -190,9 +195,9 @@ nav {
     font-size: 1.2rem;
 }
 
-.coming-soon img {
-    width: 30px;
-    height: 30px;
+.builder-image {
+    width: 60px;
+    height: 60px;
     border-radius: 4px;
     object-fit: cover;
 }
