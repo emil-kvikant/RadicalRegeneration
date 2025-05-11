@@ -38,7 +38,7 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 10%;
 }
 
 .logo {
