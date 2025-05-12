@@ -25,6 +25,11 @@ body {
     padding: 0 20px;
 }
 
+header .container {
+    margin: 0;
+    padding-left: 152px;
+}
+
 /* Header Styles */
 header {
     background-color: var(--black);
@@ -38,7 +43,7 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 10%;
+    padding-left: 0;
 }
 
 .logo {
@@ -74,6 +79,8 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 600px;
+    display: flex;
+    justify-content: center;
 }
 
 .hero .container {
@@ -82,6 +89,7 @@ nav {
     padding: 2rem;
     border-radius: 8px;
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 .hero h1 {
