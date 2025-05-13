@@ -70,7 +70,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    background-image: url('images/RADICAL REGENERATION BANDERA.jpeg');
+    background-image: url('images/logo.jpeg');
     background-color: var(--black); /* fallback */
     color: white;
     padding: 6rem 0;
